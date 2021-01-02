@@ -81,7 +81,8 @@ def adding_matz
         :languages => ["C"]
       }
     }
-	puts programmer_hash[:dennis_ritchie][:languages]
+	# programmer_hash[:dennis_ritchie][:languages]
+	programmer_hash.assoc(:languages)
 end
 
 def changing_alan
